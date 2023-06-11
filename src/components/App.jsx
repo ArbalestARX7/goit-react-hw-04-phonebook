@@ -28,7 +28,7 @@ class App extends Component {
     }
   }
 
-  formSubmitHandler = ({ name, number }) => {
+  formSubmitHandler = ( name, number ) => {
     const newContact = {
       name,
       number,
